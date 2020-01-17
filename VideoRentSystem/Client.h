@@ -9,7 +9,10 @@ class Client :
 	Date register_date;
 	vector<int> active_rent_list;
 public:
-	Client(Client_Base, Date&);
+	//Constructor with live time
+	Client(Client_Base&);
+	//Constructor for specified date
+	Client(Client_Base&, Date&);
 	// Adding ID_Rent to list of active rent
 	bool addRent(int);
 	// Removing ID_Rent from list of active rent

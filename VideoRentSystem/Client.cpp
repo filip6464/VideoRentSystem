@@ -3,7 +3,14 @@
 
 int Client::counter = 0;
 
-Client::Client(Client_Base cb,Date& d) : Client_Base(cb),register_date(d)
+Client::Client(Client_Base &cb) : Client_Base(cb)
+{
+	register_date = Date();
+	ID_Client = counter;
+	++counter;
+}
+
+Client::Client(Client_Base& cb,Date& d) : Client_Base(cb), register_date(d)
 {
 	ID_Client = counter;
 	++counter;
