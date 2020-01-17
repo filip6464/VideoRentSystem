@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Exeptions">
+      <UniqueIdentifier>{be9db7fe-f6db-41bf-90e9-2360c58018f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Exeptions">
+      <UniqueIdentifier>{edd33833-39d0-4b9c-b3d2-ba7e2b9f9857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Clients">
+      <UniqueIdentifier>{595b5c9e-e8d7-4f8e-b9ce-70208918a3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Clients">
+      <UniqueIdentifier>{eb172d2c-9a3a-49d0-b836-48bdea07c4d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -21,23 +33,23 @@
     <ClInclude Include="Date.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Client_Base.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Client.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Exeptions_Clients.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Exeptions_Films.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="Exeptions_Clients.h">
+      <Filter>Pliki nagłówkowe\Exeptions</Filter>
+    </ClInclude>
     <ClInclude Include="Exeptions_Date.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Exeptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exeptions_Films.h">
+      <Filter>Pliki nagłówkowe\Exeptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Pliki nagłówkowe\Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Base.h">
+      <Filter>Pliki nagłówkowe\Clients</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50,20 +62,20 @@
     <ClCompile Include="Date.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Client_Base.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Client.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="Exeptions_Clients.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Exeptions_Films.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Exeptions</Filter>
     </ClCompile>
     <ClCompile Include="Exeptions_Date.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Exeptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Exeptions_Films.cpp">
+      <Filter>Pliki źródłowe\Exeptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Pliki źródłowe\Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Base.cpp">
+      <Filter>Pliki źródłowe\Clients</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
