@@ -77,6 +77,12 @@
     <ClCompile Include="Client_Base.cpp">
       <Filter>Pliki źródłowe\Clients</Filter>
     </ClCompile>
+    <ClCompile Include="Enum_Category_List.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum_Type.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VideoRentSystem.rc">

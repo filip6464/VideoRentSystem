@@ -9,7 +9,6 @@ void test_ClientandClientBase();
 
 int main()
 {
-	
 //	test_Date();
 //	test_ClientBase();
 //	test_Client();

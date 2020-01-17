@@ -21,6 +21,8 @@ using namespace std;
 #include"Exeptions_Date.h"
 #include"Exeptions_Clients.h"
 //#include"Exeptions_Films.h"
+#include "Enum_Category_List.cpp"
+#include "Enum_Type.cpp"
 
 #include "Date.h"
 #include "Client_Base.h"
