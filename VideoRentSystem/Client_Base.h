@@ -3,6 +3,7 @@ class Client_Base
 {
 public:
 	Client_Base(string,string);
+	Client_Base(Client_Base& cb);
 	virtual ~Client_Base();
 protected:
 	string name;
@@ -16,6 +17,6 @@ public:
 	string toString();
 
 	friend ostream& operator<<(ostream&, Client_Base&);
-	//TODO friend virtual Client_Base& operator==(Client_Base&, Client&);
+	friend bool operator==(Client_Base&, Client_Base&);
 };
 

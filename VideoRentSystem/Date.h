@@ -1,9 +1,9 @@
 #pragma once
-//#include"Exeptions_Date.h"
 class Date
 {
 	// string
-	char buffer[12];
+	char temp_buffer[12];
+	string buffer;
 	// Info about time
 	struct tm timeinfo;
 	// time in seconds

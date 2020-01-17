@@ -13,11 +13,18 @@
 #include <fstream>
 #include <string>
 #include <ctime>
+#include <vector>
 using namespace std;
 //#define EXEPTIONS_DATE
   //Pamietaj aby zakomentowac po ustawieniu include w pch.h
 //#define DATE
-//#include "Date.h"
+#include"Exeptions_Date.h"
+#include"Exeptions_Clients.h"
+//#include"Exeptions_Films.h"
+
+#include "Date.h"
+#include "Client_Base.h"
+#include "Client.h"
 
 
 // TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
