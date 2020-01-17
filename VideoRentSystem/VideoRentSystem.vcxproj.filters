@@ -25,6 +25,15 @@
     <Filter Include="Pliki źródłowe\Clients">
       <UniqueIdentifier>{eb172d2c-9a3a-49d0-b836-48bdea07c4d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Films">
+      <UniqueIdentifier>{6e4f9eca-ce19-47c7-bcfd-2fcb0b91f96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Films">
+      <UniqueIdentifier>{8614ab14-c848-424d-a585-9b40aac61a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Enums">
+      <UniqueIdentifier>{3faf708a-c2db-4adb-89b2-288e4ee88b70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -50,6 +59,9 @@
     </ClInclude>
     <ClInclude Include="Client_Base.h">
       <Filter>Pliki nagłówkowe\Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="Film_Base.h">
+      <Filter>Pliki nagłówkowe\Films</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -77,11 +89,14 @@
     <ClCompile Include="Client_Base.cpp">
       <Filter>Pliki źródłowe\Clients</Filter>
     </ClCompile>
-    <ClCompile Include="Enum_Category_List.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="Film_Base.cpp">
+      <Filter>Pliki źródłowe\Films</Filter>
     </ClCompile>
     <ClCompile Include="Enum_Type.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum_Category_List.cpp">
+      <Filter>Pliki źródłowe\Enums</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

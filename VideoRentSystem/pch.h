@@ -27,6 +27,7 @@ using namespace std;
 #include "Date.h"
 #include "Client_Base.h"
 #include "Client.h"
+#include "Film_Base.h"
 
 
 // TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
