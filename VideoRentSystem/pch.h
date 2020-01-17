@@ -20,7 +20,7 @@ using namespace std;
 //#define DATE
 #include"Exeptions_Date.h"
 #include"Exeptions_Clients.h"
-//#include"Exeptions_Films.h"
+#include"Exeptions_Films.h"
 #include "Enum_Category_List.cpp"
 #include "Enum_Type.cpp"
 
