@@ -82,9 +82,9 @@ ostream & operator<<(ostream &os, Film_Base &fb)
 	return os;
 }
 
-bool operator==(Film_Base &fb1, Film_Base &fb2)
+bool operator==(Film_Base &fb1, Film_Base&fb2)
 {
-	if (fb1.toString().compare(fb2.toString()) == 0)
+	if (fb1.Film_Base::toString().compare(fb2.Film_Base::toString()) == 0)
 		return true;
 	return false;
 }

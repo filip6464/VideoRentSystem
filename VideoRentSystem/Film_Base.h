@@ -30,7 +30,7 @@ public:
 	int getDuration();
 	vector<Enum_Category_List> getList_Film_Category();
 //	Return record of film title,duration,price,type,list of categories
-	string toString();
+	virtual string toString();
 
 	friend ostream& operator<<(ostream&, Film_Base&);
 	friend bool operator==(Film_Base&, Film_Base&);

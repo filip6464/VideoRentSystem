@@ -33,9 +33,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="Date.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
@@ -58,6 +55,12 @@
       <Filter>Pliki nagłówkowe\Clients</Filter>
     </ClInclude>
     <ClInclude Include="Film_Base.h">
+      <Filter>Pliki nagłówkowe\Films</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
       <Filter>Pliki nagłówkowe\Films</Filter>
     </ClInclude>
   </ItemGroup>
@@ -87,6 +90,9 @@
       <Filter>Pliki źródłowe\Clients</Filter>
     </ClCompile>
     <ClCompile Include="Film_Base.cpp">
+      <Filter>Pliki źródłowe\Films</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
       <Filter>Pliki źródłowe\Films</Filter>
     </ClCompile>
   </ItemGroup>

@@ -26,6 +26,7 @@ using namespace std;
 #include "Client_Base.h"
 #include "Client.h"
 #include "Film_Base.h"
+#include "Film.h"
 
 #endif
 // TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane

@@ -37,7 +37,7 @@ ostream & operator<<(ostream &os, Client_Base &cb)
 
 bool operator==(Client_Base& cb1, Client_Base &cb2)
 {
-	if (cb1.toString().compare(cb2.toString()) == 0)
+	if (cb1.Client_Base::toString().compare(cb2.Client_Base::toString()) == 0)
 		return true;
 	return false;
 }
