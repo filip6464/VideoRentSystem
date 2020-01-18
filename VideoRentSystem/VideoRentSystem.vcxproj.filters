@@ -31,9 +31,6 @@
     <Filter Include="Pliki źródłowe\Films">
       <UniqueIdentifier>{8614ab14-c848-424d-a585-9b40aac61a6f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Pliki źródłowe\Enums">
-      <UniqueIdentifier>{3faf708a-c2db-4adb-89b2-288e4ee88b70}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -91,12 +88,6 @@
     </ClCompile>
     <ClCompile Include="Film_Base.cpp">
       <Filter>Pliki źródłowe\Films</Filter>
-    </ClCompile>
-    <ClCompile Include="Enum_Type.cpp">
-      <Filter>Pliki źródłowe\Enums</Filter>
-    </ClCompile>
-    <ClCompile Include="Enum_Category_List.cpp">
-      <Filter>Pliki źródłowe\Enums</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

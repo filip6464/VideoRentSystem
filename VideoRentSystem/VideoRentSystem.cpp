@@ -6,12 +6,14 @@
 void test_Date();
 void test_ClientBase();
 void test_ClientandClientBase();
+void test_FilmBase();
 
 int main()
 {
 //	test_Date();
 //	test_ClientBase();
 //	test_Client();
+	test_FilmBase();
 }
 
 
@@ -106,3 +108,25 @@ void test_ClientandClientBase() {
 		e.what();
 	}
 }
+void test_FilmBase() {
+	cout << "========================" << endl << "TEST FilmBase" << endl;
+	vector<Film_Base::Enum_Category_List> cat1;
+	vector<Film_Base::Enum_Category_List> cat2;
+	cat1.push_back(Film_Base::Enum_Category_List::Akcja);
+	cat2.push_back(Film_Base::Enum_Category_List::Dramatyczny);
+	Film_Base fb1("film1",5.5,111,cat1);
+	Film_Base fb2("film2",10.3,112,cat2);
+	Film_Base fb3("film3",20.1,113,cat1);
+	Film_Base fb4(fb1);
+	cout << "fb1:\n" << fb1;
+	cout << "fb2:\n" << fb2;
+	bool test1, test2, test3;
+	test1 = (fb1 == fb2) ? true : false;  //false
+	test2 = (fb1 == fb3) ? true : false;  //false
+	test3 = (fb1 == fb4) ? true : false;  //true	
+	cout << "compare test1 [0]: " << test1 << endl;
+	cout << "compare test2 [0]: " << test2 << endl;
+	cout << "compare test3 [1]: " << test3 << endl;
+	cout << "========================" << endl;
+}
+

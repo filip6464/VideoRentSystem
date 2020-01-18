@@ -165,8 +165,6 @@
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="Client_Base.cpp" />
     <ClCompile Include="Date.cpp" />
-    <ClCompile Include="Enum_Category_List.cpp" />
-    <ClCompile Include="Enum_Type.cpp" />
     <ClCompile Include="Exeptions_Clients.cpp" />
     <ClCompile Include="Exeptions_Date.cpp" />
     <ClCompile Include="Exeptions_Films.cpp" />

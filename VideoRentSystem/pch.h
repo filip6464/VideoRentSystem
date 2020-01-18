@@ -21,14 +21,12 @@ using namespace std;
 #include"Exeptions_Date.h"
 #include"Exeptions_Clients.h"
 #include"Exeptions_Films.h"
-#include "Enum_Category_List.cpp"
-#include "Enum_Type.cpp"
 
 #include "Date.h"
 #include "Client_Base.h"
 #include "Client.h"
 #include "Film_Base.h"
 
-
-// TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
 #endif
+// TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
+

@@ -6,7 +6,6 @@ Client_Base::Client_Base(string name, string surname) : name(name), surname(surn
 
 Client_Base::Client_Base(Client_Base & cb) : name(cb.getName()), surname(cb.getSurname()) {}
 
-
 Client_Base::~Client_Base()
 {
 }
@@ -17,13 +16,11 @@ string Client_Base::getName()
 	return name;
 }
 
-
 // Return Surname of Client
 string Client_Base::getSurname()
 {
 	return surname;
 }
-
 
 // Return record of Client as string
 string Client_Base::toString()
