@@ -9,6 +9,11 @@ Date::Date()
 	this->reload();
 }
 
+Date::Date(int n)
+{
+	buffer = " - ";
+}
+
 
 Date::Date(int year, int month, int day)
 {
@@ -35,10 +40,21 @@ Date::~Date()
 // Display Date in format YYYY-MM-DD
 string Date::toString()
 {
-	if (buffer.empty())
-		return "error";
+	if (this->isNull())
+		if (buffer.compare(" - ") == 0)
+			return " - ";
+		else
+			return "error";
 	else
 		return buffer;
+}
+
+bool Date::isNull()
+{
+	if (buffer.compare(" - ") == 0 || buffer.empty())
+		return true;
+	else
+		return false;
 }
 
 

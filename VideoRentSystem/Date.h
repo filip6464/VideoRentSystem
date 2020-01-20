@@ -17,11 +17,13 @@ class Date
 	void setYear(int);
 	// Updating timeinfo and buffer
 	void reload();
-
+	
 public:
 
 	// Create current date
 	Date();
+	// Create empty date
+	Date(int);
 	// Create specified date YYYY-MM-DD
 	Date(int,int,int);
 	// Create specified date YYYY-MM-DD
@@ -30,6 +32,8 @@ public:
 	time_t getTime();
 	// Display Date in format YYYY-MM-DD
 	string toString();
+	//is Null?
+	bool isNull();
 
 	friend Date operator+(const Date&, const int);
 	friend ostream& operator<<(ostream&, Date&);

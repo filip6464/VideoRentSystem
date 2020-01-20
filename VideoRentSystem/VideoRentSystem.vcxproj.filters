@@ -31,6 +31,12 @@
     <Filter Include="Pliki źródłowe\Films">
       <UniqueIdentifier>{8614ab14-c848-424d-a585-9b40aac61a6f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\Rents">
+      <UniqueIdentifier>{8518f0fa-b119-472c-8671-4422c5802419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Rents">
+      <UniqueIdentifier>{fa7016b8-0161-4095-8256-61f79667b0bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Date.h">
@@ -63,6 +69,9 @@
     <ClInclude Include="Film.h">
       <Filter>Pliki nagłówkowe\Films</Filter>
     </ClInclude>
+    <ClInclude Include="Rent_Base.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -94,6 +103,9 @@
     </ClCompile>
     <ClCompile Include="Film.cpp">
       <Filter>Pliki źródłowe\Films</Filter>
+    </ClCompile>
+    <ClCompile Include="Rent_Base.cpp">
+      <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

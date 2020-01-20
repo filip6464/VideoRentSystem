@@ -2,12 +2,14 @@
 //
 
 #include "pch.h"
-//#include "Date.h"
+
 void test_Date();
 void test_ClientBase();
 void test_ClientandClientBase();
 void test_FilmBase();
 void test_FilmandFilmBase();
+void test_RentBase();
+
 
 int main()
 {
@@ -16,6 +18,7 @@ int main()
 //	test_Client();
 //	test_FilmBase();
 //	test_FilmandFilmBase();
+	test_RentBase();
 }
 
 
@@ -151,6 +154,23 @@ void test_FilmandFilmBase() {
 	test2 = (fb1 == f2) ? true : false;  //false
 	test3 = (fb1 == fb4) ? true : false;  //true	
 	cout << "compare test1 [1]: " << test1 << endl;
+	cout << "compare test2 [0]: " << test2 << endl;
+	cout << "compare test3 [1]: " << test3 << endl;
+	cout << "========================" << endl;
+}
+void test_RentBase() {
+	cout << "========================" << endl << "TEST RentBase" << endl;
+	Rent_Base rb1( 1, 1, 5.5, Date());
+	Rent_Base rb2( 1, 2, 6.5, Date(1999,06,25),Date(NULL));
+	Rent_Base rb3(1, 2, 6.5, Date(1999, 06, 25), Date(NULL));
+	Rent_Base rb4(rb1);
+	cout << "rb1:\n" << rb1;
+	cout << "rb2:\n" << rb2;
+	bool test1, test2, test3;
+	test1 = (rb1 == rb2) ? true : false;  //false
+	test2 = (rb1 == rb3) ? true : false;  //false
+	test3 = (rb1 == rb4) ? true : false;  //true	
+	cout << "compare test1 [0]: " << test1 << endl;
 	cout << "compare test2 [0]: " << test2 << endl;
 	cout << "compare test3 [1]: " << test3 << endl;
 	cout << "========================" << endl;
