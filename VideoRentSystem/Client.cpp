@@ -21,6 +21,12 @@ Client::~Client()
 {
 }
 
+string Client::toString()
+{
+	string output = to_string(ID_Client)+"\t"+name + " " + surname;
+	return output;
+}
+
 ostream & operator<<(ostream & os, Client & c)
 {
 	os << c.toString();

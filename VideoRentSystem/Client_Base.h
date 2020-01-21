@@ -14,7 +14,7 @@ public:
 	// Return Surname of Client
 	string getSurname();
 	// Return record of Client as string
-	string toString();
+	virtual string toString();
 
 	friend ostream& operator<<(ostream&, Client_Base&);
 	friend bool operator==(Client_Base&, Client_Base&);

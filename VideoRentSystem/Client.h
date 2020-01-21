@@ -29,6 +29,7 @@ public:
 	virtual ~Client();
 	
 	// Display toString method
+	string toString();
 	friend ostream& operator<<(ostream& os, Client& c);
 };
 
