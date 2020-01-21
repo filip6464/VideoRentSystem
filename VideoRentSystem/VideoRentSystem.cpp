@@ -18,7 +18,7 @@ int main()
 //	test_Client();
 //	test_FilmBase();
 //	test_FilmandFilmBase();
-	test_RentBase();
+//	test_RentBase();
 }
 
 

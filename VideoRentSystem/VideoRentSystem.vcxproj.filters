@@ -72,6 +72,9 @@
     <ClInclude Include="Rent_Base.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="Rent.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -105,6 +108,9 @@
       <Filter>Pliki źródłowe\Films</Filter>
     </ClCompile>
     <ClCompile Include="Rent_Base.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Rent.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>

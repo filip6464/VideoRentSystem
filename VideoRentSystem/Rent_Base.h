@@ -13,7 +13,7 @@ public:
 	Rent_Base(int, int, double, Date, Date);
 
 	// return record of rent
-	string toString();
+	virtual string toString();
 
 	//	getters
 	int getClient_ID();
