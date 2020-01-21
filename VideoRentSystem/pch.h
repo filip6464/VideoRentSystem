@@ -29,6 +29,7 @@ using namespace std;
 #include "Film_Base.h"
 #include "Film.h"
 #include "Rent_Base.h"
+#include "Rent.h"
 #endif
 // TODO: w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
 

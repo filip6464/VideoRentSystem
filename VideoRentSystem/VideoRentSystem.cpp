@@ -9,6 +9,7 @@ void test_ClientandClientBase();
 void test_FilmBase();
 void test_FilmandFilmBase();
 void test_RentBase();
+void test_RentandRentBase();
 
 
 int main()
@@ -19,6 +20,7 @@ int main()
 //	test_FilmBase();
 //	test_FilmandFilmBase();
 //	test_RentBase();
+	test_RentandRentBase();
 }
 
 
@@ -158,21 +160,30 @@ void test_FilmandFilmBase() {
 	cout << "compare test3 [1]: " << test3 << endl;
 	cout << "========================" << endl;
 }
-void test_RentBase() {
-	cout << "========================" << endl << "TEST RentBase" << endl;
+void test_RentandRentBase() {
+	cout << "========================" << endl << "TEST RentandRentBase" << endl;
 	Rent_Base rb1( 1, 1, 5.5, Date());
-	Rent_Base rb2( 1, 2, 6.5, Date(1999,06,25),Date(NULL));
+	Rent_Base rb2( 1, 2, 6.5, Date(1999,06,25), Date(1999, 06, 26));
 	Rent_Base rb3(1, 2, 6.5, Date(1999, 06, 25), Date(NULL));
 	Rent_Base rb4(rb1);
-	cout << "rb1:\n" << rb1;
-	cout << "rb2:\n" << rb2;
-	bool test1, test2, test3;
-	test1 = (rb1 == rb2) ? true : false;  //false
-	test2 = (rb1 == rb3) ? true : false;  //false
-	test3 = (rb1 == rb4) ? true : false;  //true	
-	cout << "compare test1 [0]: " << test1 << endl;
+	Rent r1(rb1);
+	Rent r2(rb2);
+	Rent r3(rb4);
+	cout << "r1:\n" << r1;
+	cout << "r2:\n" << r2;
+	bool test1, test2, test3, test4, test5,test6;
+	test1 = (rb1 == r1) ? true : false;  //true
+	test2 = (rb1 == r2) ? true : false;  //false
+	test3 = (rb1 == r3) ? true : false;  //true
+	test4 = (r1.set_returnDate(Date(1999,05,10))) ? true : false;  //false
+	test5 = (r2.set_rentDate(Date(1999, 07, 10))) ? true : false;  //false
+	test6 = (r1.set_rentDate(Date(1999, 05, 10))) ? true : false;  //true
+	cout << "compare test1 [1]: " << test1 << endl;
 	cout << "compare test2 [0]: " << test2 << endl;
 	cout << "compare test3 [1]: " << test3 << endl;
+	cout << "update returndate test4 [0]: " << test4 << endl;
+	cout << "update rentdate test5 [0]: " << test5 << endl;
+	cout << "update rentdate test6 [1]: " << test6 << endl;
 	cout << "========================" << endl;
 }
 

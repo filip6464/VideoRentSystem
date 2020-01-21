@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Rent.h"
 
-int counter=0;
+int Rent::counter=0;
 
 Rent::Rent(Rent_Base &rb) : Rent_Base(rb)
 {
@@ -28,24 +28,34 @@ void Rent::setPrice(double p)
 
 bool Rent::set_rentDate(Date d)
 {
-	if (d.getTime() < return_Date.getTime()) {
+	if (!return_Date.isNull()) {
+		if (d.getTime() < return_Date.getTime()) {
+			rent_Date = d;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	else {
 		rent_Date = d;
 		return true;
 	}
-	else {
-		return false;
-	}
+		
 }
 
 bool Rent::set_returnDate(Date d)
 {
-	if (d.getTime() > return_Date.getTime()) {
-		rent_Date = d;
-		return true;
-	}
-	else {
+	if (!rent_Date.isNull())
+		if (d.getTime() > rent_Date.getTime()) {
+			return_Date = d;
+			return true;
+		}
+		else {
+			return false;
+		}
+	else
 		return false;
-	}
 }
 
 Rent::~Rent()
