@@ -157,8 +157,10 @@
     <ClInclude Include="Exeptions_Clients.h" />
     <ClInclude Include="Exeptions_Date.h" />
     <ClInclude Include="Exeptions_Films.h" />
+    <ClInclude Include="Exeptions_Rents.h" />
     <ClInclude Include="Film.h" />
     <ClInclude Include="Film_Base.h" />
+    <ClInclude Include="List_Client.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Rent.h" />
     <ClInclude Include="Rent_Base.h" />
@@ -171,8 +173,10 @@
     <ClCompile Include="Exeptions_Clients.cpp" />
     <ClCompile Include="Exeptions_Date.cpp" />
     <ClCompile Include="Exeptions_Films.cpp" />
+    <ClCompile Include="Exeptions_Rents.cpp" />
     <ClCompile Include="Film.cpp" />
     <ClCompile Include="Film_Base.cpp" />
+    <ClCompile Include="List_Client.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

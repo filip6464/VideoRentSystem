@@ -14,13 +14,13 @@ void test_RentandRentBase();
 
 int main()
 {
-//	test_Date();
-//	test_ClientBase();
-//	test_Client();
-//	test_FilmBase();
-//	test_FilmandFilmBase();
+	test_Date();
+	test_ClientBase();
+	test_ClientandClientBase();
+	test_FilmBase();
+	test_FilmandFilmBase();
 //	test_RentBase();
-	test_RentandRentBase();
+//	test_RentandRentBase();
 }
 
 
@@ -63,7 +63,7 @@ void test_ClientBase(){
 }
 void test_ClientandClientBase() {
 	try {
-		cout << "========================" << endl << "TEST ClientBase" << endl;
+		cout << "========================" << endl << "TEST Client and ClientBase" << endl;
 		Client_Base cb1("testName", "testSurname");
 		Client_Base cb2("testName2", "testSurname2");
 		Client_Base cb3("testName", "testSurname2");

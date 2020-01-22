@@ -14,6 +14,7 @@
 #include <string>
 #include <ctime>
 #include <vector>
+#include <map>
 using namespace std;
 //#define EXEPTIONS_DATE
   //Pamietaj aby zakomentowac po ustawieniu include w pch.h
@@ -21,7 +22,7 @@ using namespace std;
 #include"Exeptions_Date.h"
 #include"Exeptions_Clients.h"
 #include"Exeptions_Films.h"
-
+#include "Exeptions_Rents.h"
 
 #include "Date.h"
 #include "Client_Base.h"

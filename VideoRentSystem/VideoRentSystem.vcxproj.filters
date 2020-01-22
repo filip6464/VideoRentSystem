@@ -75,6 +75,12 @@
     <ClInclude Include="Rent.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="List_Client.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Exeptions_Rents.h">
+      <Filter>Pliki nagłówkowe\Exeptions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -112,6 +118,12 @@
     </ClCompile>
     <ClCompile Include="Rent.cpp">
       <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="List_Client.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Exeptions_Rents.cpp">
+      <Filter>Pliki źródłowe\Exeptions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
