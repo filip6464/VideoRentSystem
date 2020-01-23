@@ -69,17 +69,17 @@
     <ClInclude Include="Film.h">
       <Filter>Pliki nagłówkowe\Films</Filter>
     </ClInclude>
-    <ClInclude Include="Rent_Base.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Rent.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="List_Client.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="Exeptions_Rents.h">
       <Filter>Pliki nagłówkowe\Exeptions</Filter>
+    </ClInclude>
+    <ClInclude Include="List_Client.h">
+      <Filter>Pliki nagłówkowe\Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="Rent.h">
+      <Filter>Pliki nagłówkowe\Rents</Filter>
+    </ClInclude>
+    <ClInclude Include="Rent_Base.h">
+      <Filter>Pliki nagłówkowe\Rents</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -113,17 +113,17 @@
     <ClCompile Include="Film.cpp">
       <Filter>Pliki źródłowe\Films</Filter>
     </ClCompile>
-    <ClCompile Include="Rent_Base.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Rent.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="List_Client.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="Exeptions_Rents.cpp">
       <Filter>Pliki źródłowe\Exeptions</Filter>
+    </ClCompile>
+    <ClCompile Include="List_Client.cpp">
+      <Filter>Pliki źródłowe\Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="Rent.cpp">
+      <Filter>Pliki źródłowe\Rents</Filter>
+    </ClCompile>
+    <ClCompile Include="Rent_Base.cpp">
+      <Filter>Pliki źródłowe\Rents</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
